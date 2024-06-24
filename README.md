@@ -7,3 +7,4 @@
     source  = "mariiak42/namespace/kubernetes"
     name    = "this-ns-demo"
  }
+```
