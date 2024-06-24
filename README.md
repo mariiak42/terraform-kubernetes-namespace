@@ -5,12 +5,13 @@
  module "demo" {
     source  = "mariiak42/namespace/kubernetes"
     name    = "this-ns-demo"
-     labels = {
-    "env" = "demo"
-  }
-  annotations = {
-    "created-by" = "terraform"
-  }
+    pod_limit = 100
+    labels = {
+      "env" = "demo"
+   }
+    annotations = {
+      "created-by" = "terraform"
+   }
  }
  
 ```
