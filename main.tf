@@ -3,5 +3,5 @@ resource "kubernetes_namespace" "this" {
     annotations = var.annotations
     labels = var.labels
     name = var.name
-}
+  }
 }
